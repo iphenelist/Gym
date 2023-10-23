@@ -1,0 +1,40 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2023-10-23 21:33:18.587904",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "exercise",
+  "description"
+ ],
+ "fields": [
+  {
+   "fieldname": "exercise",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Exercise"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "label": "Description"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-10-23 21:33:29.445534",
+ "modified_by": "Administrator",
+ "module": "Gym",
+ "name": "Workout Plan Exercise",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
