@@ -18,7 +18,7 @@ class Member(Document):
         
         user.insert(ignore_permissions=True)
 
-        self.add_role_to_user(user.name, "Member")
+        self.add_role_to_user(user.name, "Gym Member")
 
     def add_role_to_user(self, user, role):
         user_doc = frappe.get_doc("User", user)
