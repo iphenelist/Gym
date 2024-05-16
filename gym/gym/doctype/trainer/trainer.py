@@ -5,4 +5,4 @@
 from frappe.model.document import Document
 
 class Trainer(Document):
-	pass
+	frappe.throw(str('hellow'))
